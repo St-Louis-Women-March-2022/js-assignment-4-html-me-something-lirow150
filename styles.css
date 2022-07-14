@@ -1,9 +1,9 @@
 
 body {
+    display: block;
     background-color: rgb(222, 205, 253);
-   margin-left: auto;
-   margin-right: auto;
-   padding: 100px 100px 100px 100px ;
+    margin: 8px;
+    padding: 100px 100px 100px 100px ;
 
 
 }
@@ -14,13 +14,13 @@ body {
 }
 
 
-
-header {
+#mainHeading {
     display: block;
     width: 100%;
-    background: radial-gradient(rgb(0, 0, 0), purple);
-    color: white;
+    background: radial-gradient(rgb(32, 3, 3), rgb(122, 34, 7));
+    color: red;
     padding: 0px 10px;
+    
 
 }
 
@@ -28,20 +28,21 @@ header {
     nav.horizontalNavigation li {
         display: inline;
         width: 100%;
-        color: aliceblue;
-        padding: 0px 10px;
+        color: rgb(240, 11, 11);
+        padding: 10px 10px;
         text-align: center;
-    
+        border: 10px groove rgb(209, 182, 182);
+        margin: 60px;
         }
     
         li a:hover {
-            background-color: rgb(179, 67, 164);
-            color: white;
+            background-color: rgb(235, 235, 235);
+            color: rgb(224, 0, 0);
         }
 
         li a:visited, a:link {
             text-decoration: none;
-            color: aliceblue;
+            color: rgb(250, 8, 8);
         }
 
      
@@ -52,7 +53,18 @@ header {
     
     
 
-
+#secondSection {
+    background-color: rgba(219, 79, 137, 0.432);
+   
+}
+#firtsSection {
+    background-color: rgba(184, 172, 196, 0.432);
+    
+}
+#thirdSection {
+    background-color: rgba(47, 190, 201, 0.432);
+    
+}
 
 
 
@@ -79,7 +91,10 @@ h2 {
     font-size: 3em;
     color: purple;
 }
-
+.funParagraph {
+    color: green;
+    
+}
 p, ol {
     text-align: center;
     font-size: 1.5em;
@@ -114,15 +129,16 @@ p:first-of-type::first-letter {
 .secondSection  > img {
 
     width: 5px;
-
     
 }
+
 
 footer > p{
     background-color: rgba(150, 5, 61, 0.815);
     color: aliceblue;
-    text-align: left;
-    float: ;
+    text-align: center;
+    height: 3em;
+    padding-top: 50px;
 }
 
 img {
