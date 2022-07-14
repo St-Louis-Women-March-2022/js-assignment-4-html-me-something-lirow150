@@ -8,6 +8,47 @@ body {
 
 }
 
+header {
+    display: block;
+    width: 100%;
+    background: radial-gradient(rgb(0, 0, 0), purple);
+    color: white;
+    padding: 0px 10px;
+
+}
+
+    
+    nav.horizontalNavigation li {
+        display: inline;
+        width: 100%;
+        color: aliceblue;
+        padding: 0px 10px;
+        text-align: center;
+    
+        }
+    
+        li a:hover {
+            background-color: rgb(179, 67, 164);
+            color: white;
+        }
+
+        li a:visited, a:link {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+     
+    
+    
+    
+    
+
+
+
+
+
+
+
 video {
     width: 55%;
 }
