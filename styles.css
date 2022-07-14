@@ -8,6 +8,13 @@ body {
 
 }
 
+.list {
+    background-color: rgb(202, 190, 214);
+    padding-top: 10em;
+}
+
+
+
 header {
     display: block;
     width: 100%;
@@ -39,7 +46,9 @@ header {
 
      
     
-    
+    .mainInfo {
+        background: radial-gradient(rgb(213, 112, 226) rgb(24, 14, 26));
+    }
     
     
 
